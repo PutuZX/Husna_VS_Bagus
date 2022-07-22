@@ -88,7 +88,7 @@ const app = Vue.createApp({
       this.attackPlayer();
     },
     surrender() {
-      this.winner = 'Bagus';
+      this.winner = 'Nangis';
     },
     addLogMessage(who, what, value) {
       this.logMessages.unshift({
